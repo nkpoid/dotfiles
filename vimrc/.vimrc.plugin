@@ -1,0 +1,2 @@
+source ~/dotfiles/vimrc/plugin/.vimrc.plugin.neocomplcache
+source ~/dotfiles/vimrc/plugin/.vimrc.plugin.powerline
