@@ -1,2 +1,3 @@
 source ~/dotfiles/vimrc/plugin/.vimrc.plugin.neocomplcache
 source ~/dotfiles/vimrc/plugin/.vimrc.plugin.powerline
+source ~/dotfiles/vimrc/plugin/.vimrc.plugin.nerdtree
