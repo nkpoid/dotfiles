@@ -21,6 +21,7 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'Yggdroot/indentLine'
 NeoBundle 'joshdick/onedark.vim'
 NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'terryma/vim-multiple-cursors'
 
 call neobundle#end()
 
