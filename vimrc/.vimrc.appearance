@@ -13,3 +13,4 @@ set mouse=a
 set laststatus=2
 
 syntax on
+colorscheme onedark

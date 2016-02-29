@@ -13,9 +13,6 @@ source ~/dotfiles/vimrc/.vimrc.encoding
 " 表示設定
 source ~/dotfiles/vimrc/.vimrc.appearance
 
-" カラースキーマ設定
-source ~/dotfiles/vimrc/.vimrc.colorscheme
-
 " インデント設定
 source ~/dotfiles/vimrc/.vimrc.indent
 
