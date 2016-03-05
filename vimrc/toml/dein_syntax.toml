@@ -18,3 +18,11 @@ on_ft = ['markdown', 'mkd']
 repo = 'vim-ruby/vim-ruby'
 on_map = '<Plug>'
 on_ft = 'ruby'
+
+[[plugins]]
+repo = 'tpope/vim-rails'
+on_ft = 'ruby'
+
+[[plugins]]
+repo = 'slim-template/vim-slim'
+on_ft = 'slim'

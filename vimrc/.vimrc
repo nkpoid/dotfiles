@@ -13,5 +13,11 @@ source ~/dotfiles/vimrc/.vimrc.appearance
 " キーマッピング設定
 source ~/dotfiles/vimrc/.vimrc.mapping
 
+" filetype設定
+source ~/dotfiles/vimrc/.vimrc.filetype
+
 " プラグイン設定
 source ~/dotfiles/vimrc/.vimrc.plugin
+
+syntax on
+filetype plugin indent on

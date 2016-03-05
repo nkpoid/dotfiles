@@ -22,9 +22,13 @@ disabled = 'has("lua")'
 on_i = 1
 
 [[plugins]]
+repo = 'Shougo/neosnippet.vim'
+
+[[plugins]]
 repo = 'Townk/vim-autoclose'
 on_i = 1
 
+# endの補完等
 [[plugins]]
 repo = 'tpope/vim-endwise'
 on_i = 1
@@ -32,6 +36,18 @@ on_i = 1
 [[plugins]]
 repo = 'tpope/vim-fugitive' 
 
+# ANSI情報を色付け
 [[plugins]]
 repo = 'vim-scripts/AnsiEsc.vim'
 
+# -でメソッドの効果を反転
+[[plugins]]
+repo = 'AndrewRadev/switch.vim'
+
+# gccでコメント/コメントアウトを入れ替え
+[[plugins]]
+repo = 'tomtom/tcomment_vim'
+
+# シングルクオートとダブルクオートの入れ替え等
+[[plugins]]
+repo = 'tpope/vim-surround'
