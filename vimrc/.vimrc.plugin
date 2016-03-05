@@ -7,3 +7,5 @@ endif
 source ~/dotfiles/vimrc/plugin/.vimrc.plugin.nerdtree
 source ~/dotfiles/vimrc/plugin/.vimrc.plugin.switch
 source ~/dotfiles/vimrc/plugin/.vimrc.plugin.vim-rails
+source ~/dotfiles/vimrc/plugin/.vimrc.plugin.unite-rails
+

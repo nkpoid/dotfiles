@@ -1,2 +1,5 @@
 " slim
-autocmd BufNewFile,BufRead *.slim set ft=slim
+au BufNewFile,BufRead *.slim set ft=slim
+
+" scss
+au BufRead,BufNewFile *.scss set ft=scss

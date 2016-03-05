@@ -1,14 +1,9 @@
 [[plugins]]
-repo = 'Shougo/unite.vim'
+repo = 'Shougo/neomru.vim'
+on_path = '.*'
 
 [[plugins]]
 repo = 'Shougo/context_filetype.vim'
-
-[[plugins]]
-repo = 'Shougo/vimfiler.vim'
-depends = 'unite.vim'
-on_map = '<Plug>'
-on_path = '.*'
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
@@ -51,3 +46,12 @@ repo = 'tomtom/tcomment_vim'
 # シングルクオートとダブルクオートの入れ替え等
 [[plugins]]
 repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'basyura/unite-rails'
+depends = 'unite.vim'
+on_source = 'unite.vim'
+
+[[plugins]]
+repo = 'Xuyuanp/nerdtree-git-plugin'
+on_source = 'nerdtree'

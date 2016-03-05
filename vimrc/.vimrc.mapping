@@ -8,10 +8,7 @@ nnoremap <silent> sj <C-w>j
 nnoremap <silent> sk <C-w>k
 nnoremap <silent> sl <C-w>l
 
-" 分割
-nnoremap <silent> ss :split<CR>
-nnoremap <silent> sv :vsprit<CR>
-
+" タブ関連
 nnoremap <silent> st :tabnew<CR>
 nnoremap <silent> sn gt
 nnoremap <silent> sp gT
