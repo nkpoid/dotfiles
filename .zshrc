@@ -3,7 +3,9 @@ if [ ! -d ~/.zplug ]; then
 fi
 
 source ~/.zplug/zplug
-source ~/dotfiles/sh/ls
+for file in ~/dotfiles/sh/*; do
+  source $file
+done
 
 # 補完をIgnoreCaseにする
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
@@ -15,8 +17,6 @@ zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
 
 zplug "mollifier/anyframe"
-
-zplug "b4b4r07/enhancd", of:enhancd.sh
 
 zplug "zsh-users/zsh-completions"
 
