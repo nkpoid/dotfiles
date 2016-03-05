@@ -1,8 +1,8 @@
 " 初期化
 source ~/dotfiles/vimrc/.vimrc.init
 
-" NeoBundle設定
-source ~/dotfiles/vimrc/.vimrc.bundle
+" dein.vim設定
+source ~/dotfiles/vimrc/.vimrc.dein
 
 " 基本設定
 source ~/dotfiles/vimrc/.vimrc.basic

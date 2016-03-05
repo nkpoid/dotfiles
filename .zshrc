@@ -3,7 +3,7 @@ if [ ! -d ~/.zplug ]; then
 fi
 
 source ~/.zplug/zplug
-for file in ~/dotfiles/sh/*; do
+for file in ~/dotfiles/zsh/*; do
   source $file
 done
 
@@ -15,12 +15,9 @@ zplug "simnalamburt/shellder"
 zplug "zsh-users/zsh-syntax-highlighting", nice: 10
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
-
-zplug "mollifier/anyframe"
-
 zplug "zsh-users/zsh-completions"
 
-zplug "mrowa44/emojify", as:command
+zplug "mollifier/anyframe"
 
 if ! zplug check --verbose; then
   printf "Install? [y/N]: "

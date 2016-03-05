@@ -1,2 +1,7 @@
-source ~/dotfiles/vimrc/plugin/.vimrc.plugin.neocomplcache
+if has("lua")
+  source ~/dotfiles/vimrc/plugin/.vimrc.plugin.neocomplete
+else
+  source ~/dotfiles/vimrc/plugin/.vimrc.plugin.neocomplcache
+endif
+
 source ~/dotfiles/vimrc/plugin/.vimrc.plugin.nerdtree

@@ -18,4 +18,3 @@ nnoremap <silent> sp gT
 nnoremap <silent> sT :Unite tab<CR>
 
 nnoremap <silent> se :NERDTreeToggle<CR>
-
