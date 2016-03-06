@@ -14,4 +14,5 @@ nnoremap <silent> sn gt
 nnoremap <silent> sp gT
 nnoremap <silent> sT :Unite tab<CR>
 
-nnoremap <silent> se :NERDTreeToggle<CR>
+noremap <silent> <C-l> <End>
+noremap <silent> <C-h> <Home>
