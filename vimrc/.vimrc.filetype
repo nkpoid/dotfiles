@@ -6,3 +6,6 @@ au BufRead,BufNewFile *.scss set ft=scss
 
 " zshrc
 au BufRead,BufNewFile *.zshrc set ft=zsh
+
+" .pryrc
+au BufRead,BufNewFile .pryrc set ft=ruby
