@@ -25,3 +25,6 @@ repo = 'itchyny/lightline.vim'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
