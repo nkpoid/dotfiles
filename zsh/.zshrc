@@ -10,8 +10,6 @@ for file in ~/dotfiles/zsh/*; do
   source $file
 done
 
-zplug "simnalamburt/shellder"
-
 zplug "zsh-users/zsh-syntax-highlighting", nice: 10
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-completions"
