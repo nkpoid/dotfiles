@@ -53,3 +53,6 @@ on_ft = 'ruby'
 
 [[plugins]]
 repo = 'Konfekt/FastFold'
+
+[[plugins]]
+repo = 'thinca/vim-ref'
