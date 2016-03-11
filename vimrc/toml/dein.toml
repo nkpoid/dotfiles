@@ -15,9 +15,6 @@ repo = 'Shougo/vimproc'
 repo = 'scrooloose/nerdtree'
 
 [[plugins]]
-repo = 'Shougo/unite.vim'
-
-[[plugins]]
 repo = 'joshdick/onedark.vim'
 
 [[plugins]]
@@ -25,3 +22,6 @@ repo = 'itchyny/lightline.vim'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'osyo-manga/unite-filetype'

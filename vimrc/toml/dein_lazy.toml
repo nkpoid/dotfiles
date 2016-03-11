@@ -3,6 +3,10 @@ repo = 'Shougo/neomru.vim'
 on_path = '.*'
 
 [[plugins]]
+repo = 'Shougo/unite.vim'
+depends = 'neomru.vim'
+
+[[plugins]]
 repo = 'Shougo/context_filetype.vim'
 
 [[plugins]]
@@ -12,45 +16,29 @@ disabled = '!has("lua")'
 on_i = 1
 
 [[plugins]]
-repo = 'Shougo/neocomplcache.vim'
-disabled = 'has("lua")'
-on_i = 1
-
-[[plugins]]
-repo = 'Shougo/neosnippet.vim'
-
-[[plugins]]
-repo = 'Shougo/neosnippet-snippets'
-
-[[plugins]]
 repo = 'Shougo/neopairs.vim'
-on_path = '.*'
+on_i = 1
 
 [[plugins]]
 repo = 'Townk/vim-autoclose'
 on_path = '.*'
 
-# endの補完等
 [[plugins]]
 repo = 'tpope/vim-endwise'
-on_i = 1
+on_ft = 'ruby'
 
 [[plugins]]
 repo = 'tpope/vim-fugitive' 
 
-# ANSI情報を色付け
 [[plugins]]
 repo = 'vim-scripts/AnsiEsc.vim'
 
-# -でメソッドの効果を反転
 [[plugins]]
 repo = 'AndrewRadev/switch.vim'
 
-# gccでコメント/コメントアウトを入れ替え
 [[plugins]]
 repo = 'tomtom/tcomment_vim'
 
-# シングルクオートとダブルクオートの入れ替え等
 [[plugins]]
 repo = 'tpope/vim-surround'
 
@@ -60,5 +48,8 @@ depends = 'unite.vim'
 on_source = 'unite.vim'
 
 [[plugins]]
-repo = 'Xuyuanp/nerdtree-git-plugin'
-on_source = 'nerdtree'
+repo = 'osyo-manga/vim-monster'
+on_ft = 'ruby'
+
+[[plugins]]
+repo = 'Konfekt/FastFold'

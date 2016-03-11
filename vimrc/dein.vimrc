@@ -18,8 +18,8 @@ let s:syntax_toml = '~/dotfiles/vimrc/toml/dein_syntax.toml'
 " TOML を読み込み、キャッシュしておく
 if dein#load_cache([expand('<sfile>'), s:toml, s:lazy_toml])
   call dein#load_toml(s:toml, {'lazy': 0})
+  call dein#load_toml(s:lazy_toml, {'lazy': 0})
   call dein#load_toml(s:syntax_toml, {'lazy': 1})
-  call dein#load_toml(s:lazy_toml, {'lazy': 1})
   " call dein#save_cache()
 endif
 
