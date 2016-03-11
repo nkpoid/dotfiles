@@ -1,23 +1,20 @@
-" 初期化
-source ~/dotfiles/vimrc/.vimrc.init
-
 " dein.vim設定
-source ~/dotfiles/vimrc/.vimrc.dein
+source ~/dotfiles/vimrc/dein.vimrc
 
 " 基本設定
-source ~/dotfiles/vimrc/.vimrc.basic
+source ~/dotfiles/vimrc/basic.vimrc
 
 " 表示設定
-source ~/dotfiles/vimrc/.vimrc.appearance
+source ~/dotfiles/vimrc/appearance.vimrc
 
 " キーマッピング設定
-source ~/dotfiles/vimrc/.vimrc.mapping
+source ~/dotfiles/vimrc/mapping.vimrc
 
 " filetype設定
-source ~/dotfiles/vimrc/.vimrc.filetype
+source ~/dotfiles/vimrc/filetype.vimrc
 
 " プラグイン設定
-source ~/dotfiles/vimrc/.vimrc.plugin
+source ~/dotfiles/vimrc/plugin.vimrc
 
 syntax on
 filetype plugin indent on
