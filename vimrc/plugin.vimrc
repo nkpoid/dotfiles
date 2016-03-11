@@ -1,7 +1,5 @@
 if has("lua")
   source ~/dotfiles/vimrc/plugin/neocomplete.vimrc
-else
-  source ~/dotfiles/vimrc/plugin/neocomplcache.vimrc
 endif
 
 source ~/dotfiles/vimrc/plugin/nerdtree.vimrc
