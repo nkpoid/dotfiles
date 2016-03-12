@@ -34,3 +34,6 @@ on_ft = 'scss'
 [[plugins]]
 repo = 'evanmiller/nginx-vim-syntax'
 on_ft = 'conf'
+
+[[plugins]]
+repo = 'dag/vim-fish'
