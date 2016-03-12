@@ -6,7 +6,7 @@ autoload -U compinit
 compinit
 
 source ~/.zplug/zplug
-for file in ~/dotfiles/zsh/*; do
+for file in ~/dotfiles/zsh/*.zsh; do
   source $file
 done
 
