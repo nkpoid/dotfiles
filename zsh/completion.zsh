@@ -26,7 +26,7 @@ zstyle ':completion:*:options' description 'yes'
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' use-cache true
-zstyle ':completion:*' list-separator '-->'
+zstyle ':completion:*:default' menu select=2
 
 # オブジェクトファイル,中間ファイル等は補完しない
 zstyle ':completion:*:*files' ignored-patterns '*?.o' '*?~' '*\#'
