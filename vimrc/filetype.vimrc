@@ -1,6 +1,3 @@
-" zshrc
-au BufRead,BufNewFile *.zshrc set ft=zsh
-
 " vimrc
 au BufRead,BufNewFile *.vimrc set ft=vim
 
