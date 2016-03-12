@@ -22,6 +22,3 @@ repo = 'itchyny/lightline.vim'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
-
-[[plugins]]
-repo = 'osyo-manga/unite-filetype'

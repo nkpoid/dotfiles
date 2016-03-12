@@ -25,7 +25,7 @@ endif
 
 call dein#end()
 
-" vimprocだけは最初にインストールしてほしい
+" vimprocだけは最初にインストール
 if dein#check_install(['vimproc'])
   call dein#install(['vimproc'])
 endif
