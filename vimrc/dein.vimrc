@@ -16,14 +16,17 @@ let s:lazy_toml = '~/dotfiles/vimrc/toml/dein_lazy.toml'
 let s:syntax_toml = '~/dotfiles/vimrc/toml/dein_syntax.toml'
 
 " TOMLを読み込み、キャッシュしておく
-if dein#load_cache([expand('<sfile>'), s:toml, s:lazy_toml])
+if dein#load_state(s:dein_dir)
+  call dein#begin(s:dein_dir)
+
   call dein#load_toml(s:toml, {'lazy': 0})
   call dein#load_toml(s:lazy_toml, {'lazy': 0})
   call dein#load_toml(s:syntax_toml, {'lazy': 1})
-  " call dein#save_cache()
-endif
 
-call dein#end()
+  " 設定終了
+  call dein#end()
+  call dein#save_state()
+endif
 
 " vimprocだけは最初にインストール
 if dein#check_install(['vimproc'])
