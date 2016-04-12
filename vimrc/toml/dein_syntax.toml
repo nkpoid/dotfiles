@@ -32,8 +32,7 @@ repo = 'cakebaker/scss-syntax.vim'
 on_ft = 'scss'
 
 [[plugins]]
-repo = 'evanmiller/nginx-vim-syntax'
-on_ft = 'conf'
+repo = 'fatih/vim-nginx'
 
 [[plugins]]
 repo = 'dag/vim-fish'
