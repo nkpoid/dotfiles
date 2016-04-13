@@ -60,3 +60,7 @@ repo = 'thinca/vim-ref'
 [[plugins]]
 repo = 'osyo-manga/unite-filetype'
 depends = 'unite.vim'
+
+[[plugins]]
+repo = 'sudo.vim'
+
