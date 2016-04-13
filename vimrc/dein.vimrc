@@ -28,9 +28,8 @@ if dein#load_state(s:dein_dir)
   call dein#save_state()
 endif
 
-" vimprocだけは最初にインストール
-if dein#check_install(['vimproc'])
-  call dein#install(['vimproc'])
+if dein#check_install(['vimproc', 'onedark'])
+  call dein#install(['vimproc', 'onedark'])
 endif
 " もし,未インストールものものがあったらインストール
 if dein#check_install()
