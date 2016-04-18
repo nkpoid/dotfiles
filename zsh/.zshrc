@@ -16,11 +16,6 @@ zplug "zsh-users/zsh-syntax-highlighting", nice: 10
 
 zplug "mollifier/anyframe"
 
-zplug "plugins/brew", from:oh-my-zsh
-zplug "plugins/gem", from:oh-my-zsh
-zplug "plugins/rails", from:oh-my-zsh, as:command
-zplug "sorin-ionescu/prezto", of:"modules/ruby"
-
 zplug "mollifier/cd-gitroot"
 alias cdu='cd-gitroot'
 
