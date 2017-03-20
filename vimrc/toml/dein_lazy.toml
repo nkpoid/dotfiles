@@ -28,7 +28,7 @@ repo = 'tpope/vim-endwise'
 on_ft = 'ruby'
 
 [[plugins]]
-repo = 'tpope/vim-fugitive' 
+repo = 'tpope/vim-fugitive'
 
 [[plugins]]
 repo = 'vim-scripts/AnsiEsc.vim'
@@ -48,10 +48,6 @@ depends = 'unite.vim'
 on_source = 'unite.vim'
 
 [[plugins]]
-repo = 'osyo-manga/vim-monster'
-on_ft = 'ruby'
-
-[[plugins]]
 repo = 'Konfekt/FastFold'
 
 [[plugins]]
@@ -63,4 +59,3 @@ depends = 'unite.vim'
 
 [[plugins]]
 repo = 'sudo.vim'
-
