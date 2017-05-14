@@ -28,7 +28,3 @@ repo = 'fatih/vim-nginx'
 
 [[plugins]]
 repo = 'dag/vim-fish'
-
-[[plugins]]
-repo = 'zaiste/tmux.vim'
-on_ft = 'tmux'
