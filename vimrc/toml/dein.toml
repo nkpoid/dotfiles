@@ -14,5 +14,3 @@ repo = 'joshdick/onedark.vim'
 [[plugins]]
 repo = 'itchyny/lightline.vim'
 
-[[plugins]]
-repo = 'Yggdroot/indentLine'
