@@ -43,11 +43,6 @@ repo = 'tomtom/tcomment_vim'
 repo = 'tpope/vim-surround'
 
 [[plugins]]
-repo = 'basyura/unite-rails'
-depends = 'unite.vim'
-on_source = 'unite.vim'
-
-[[plugins]]
 repo = 'Konfekt/FastFold'
 
 [[plugins]]
@@ -56,6 +51,3 @@ repo = 'thinca/vim-ref'
 [[plugins]]
 repo = 'osyo-manga/unite-filetype'
 depends = 'unite.vim'
-
-[[plugins]]
-repo = 'sudo.vim'

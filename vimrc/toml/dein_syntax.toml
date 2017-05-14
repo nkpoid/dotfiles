@@ -20,10 +20,6 @@ on_map = '<Plug>'
 on_ft = 'ruby'
 
 [[plugins]]
-repo = 'tpope/vim-rails'
-on_ft = 'ruby'
-
-[[plugins]]
 repo = 'cakebaker/scss-syntax.vim'
 on_ft = 'scss'
 
