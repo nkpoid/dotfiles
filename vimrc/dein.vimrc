@@ -1,7 +1,10 @@
+if &compatible
+  set nocompatible
+endif
+
 let s:dein_dir = expand('~/.cache/dein')
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 
-" dein.vim がなければgithub から落としてくる
 if &runtimepath !~# '/dein.vim'
   if !isdirectory(s:dein_repo_dir)
     execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
@@ -9,21 +12,19 @@ if &runtimepath !~# '/dein.vim'
   execute 'set runtimepath^=' . fnamemodify(s:dein_repo_dir, ':p')
 endif
 
-let s:toml      = '~/dotfiles/vimrc/toml/dein.toml'
-let s:lazy_toml = '~/dotfiles/vimrc/toml/dein_lazy.toml'
-let s:syntax_toml = '~/dotfiles/vimrc/toml/dein_syntax.toml'
-
-" TOMLを読み込み、キャッシュしておく
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
 
-  call dein#load_toml(s:toml, {'lazy': 0})
-  call dein#load_toml(s:lazy_toml, {'lazy': 0})
-  call dein#load_toml(s:syntax_toml, {'lazy': 1})
+  call dein#load_toml('~/dotfiles/vimrc/dein/plugins.toml', {'lazy': 0})
+  call dein#load_toml('~/dotfiles/vimrc/dein/plugins_lazy.toml', {'lazy': 1})
+  call dein#load_toml('~/dotfiles/vimrc/dein/syntax.toml', {'lazy': 1})
 
   call dein#end()
   call dein#save_state()
 endif
+
+filetype plugin indent on
+syntax on
 
 if dein#check_install(['vimproc'])
   call dein#install(['vimproc'])

@@ -13,4 +13,3 @@ repo = 'joshdick/onedark.vim'
 
 [[plugins]]
 repo = 'itchyny/lightline.vim'
-

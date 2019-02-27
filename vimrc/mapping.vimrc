@@ -14,5 +14,5 @@ nnoremap <silent> sn gt
 nnoremap <silent> sp gT
 nnoremap <silent> sT :Unite tab<CR>
 
-" 保存時にsudo権限で無理やり保存
+" sudoで無理やり保存
 cnoremap w!! w !sudo tee > /dev/null %<CR>
