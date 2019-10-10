@@ -1,1 +1,2 @@
-ln -s -i ~/dotfiles/vimrc/.vimrc ~
+ln -s ~/dotfiles/vimrc/.vimrc ~
+ln -s ~/dotfiles/.tigrc ~/
