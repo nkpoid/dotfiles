@@ -1,0 +1,25 @@
+[tools]
+ruby = "latest"
+go = "latest"
+node = "latest"
+
+"npm:pnpm" = "latest"
+"npm:@anthropic-ai/claude-code" = "latest"
+
+uv = "latest"
+"pipx:yt-dlp" = "latest"
+"pipx:onelogin-aws-cli" = { version = "latest", uvx_args = "--with setuptools" }
+
+[settings]
+asdf = false
+experimental = true
+pipx.uvx = true
+idiomatic_version_file_enable_tools = ["ruby"]
+
+[settings.status]
+show_env = true
+
+[env]
+EDITOR = "code"
+AWS_REGION = "ap-northeast-1"
+AWS_DEFAULT_REGION = "ap-northeast-1"
