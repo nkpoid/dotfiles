@@ -1,0 +1,20 @@
+#   /Users/koki.watanabe/Library/Application Support/com.mitchellh.ghostty/config
+theme = Snazzy Soft
+font-family = Monaspace Neon Var
+font-feature = -calt, -liga, -dlig
+
+background-opacity = 0.9
+background-blur = true
+
+macos-titlebar-proxy-icon = hidden
+macos-titlebar-style = tabs
+
+macos-icon = glass
+macos-icon-frame = beige
+
+window-height = 50
+window-width = 190
+window-padding-x = 5
+window-inherit-working-directory = false
+
+keybind = shift+enter=text:\n
