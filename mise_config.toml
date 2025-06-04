@@ -1,5 +1,6 @@
 [tools]
 ruby = "latest"
+go = "latest"
 
 node = "latest"
 "npm:pnpm" = "latest"
@@ -8,9 +9,6 @@ node = "latest"
 uv = "latest"
 "pipx:yt-dlp" = "latest"
 "pipx:onelogin-aws-cli" = { version = "latest", uvx_args = "--with setuptools" }
-
-go = "latest"
-"go:github.com/d-kuro/gwq/cmd/gwq" = "latest"
 
 [settings]
 asdf = false
