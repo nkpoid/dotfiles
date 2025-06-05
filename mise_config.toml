@@ -17,8 +17,3 @@ idiomatic_version_file_enable_tools = ["ruby"]
 
 [settings.status]
 show_env = true
-
-[env]
-EDITOR = "code"
-AWS_REGION = "ap-northeast-1"
-AWS_DEFAULT_REGION = "ap-northeast-1"
