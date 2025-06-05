@@ -3,8 +3,7 @@
 mkdir -p ~/.config/fish
 ln -sf ~/dotfiles/config.fish ~/.config/fish/
 
-mkdir -p ~/.config/mise
-ln -sf ~/dotfiles/mise_config.toml ~/.config/mise/config.toml
+ln -sf ~/dotfiles/mise_config.toml ~/.config/mise.toml
 
 if [[ "$(uname)" == "Darwin" ]] && command -v ghostty &> /dev/null; then
   ln -sf ~/dotfiles/ghostty.yml ~/Library/Application\ Support/com.mitchellh.ghostty/config
