@@ -6,12 +6,16 @@ node = "latest"
 "npm:pnpm" = "latest"
 "npm:@anthropic-ai/claude-code" = "latest"
 
+python = "latest"
 uv = "latest"
+"pipx:ruff" = "latest"
+"pipx:ty" = "latest"
 "pipx:yt-dlp" = "latest"
 "pipx:onelogin-aws-cli" = { version = "latest", uvx_args = "--with setuptools" }
 
 [settings]
 experimental = true
+python.uv_venv_auto = true
 pipx.uvx = true
 idiomatic_version_file_enable_tools = ["ruby"]
 
