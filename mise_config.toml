@@ -5,6 +5,8 @@ go = "latest"
 node = "latest"
 "npm:pnpm" = "latest"
 "npm:@anthropic-ai/claude-code" = "latest"
+"npm:ccusage" = "latest"
+"npm:@google/gemini-cli" = "latest"
 
 python = "latest"
 uv = "latest"
@@ -12,11 +14,11 @@ uv = "latest"
 "pipx:ty" = "latest"
 "pipx:yt-dlp" = "latest"
 "pipx:onelogin-aws-cli" = { version = "latest", uvx_args = "--with setuptools" }
+"pipx:plamo-translate" = { version = "latest", uvx_args = "--python 3.12" }
 
 [settings]
 experimental = true
 python.uv_venv_auto = true
-pipx.uvx = true
 idiomatic_version_file_enable_tools = ["ruby", "python"]
 
 [settings.status]
