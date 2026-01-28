@@ -1,0 +1,9 @@
+gui:
+  nerdFontsVersion: '3'
+keybinding:
+  universal:
+    quit: '<c-c>'
+    quit-alt1: '' # alternative/alias of quit
+    return: '<Esc>' # return to previous menu, will quit if there's nowhere to return
+git:
+  overrideGpg: true

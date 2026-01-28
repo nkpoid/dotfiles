@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-mkdir -p ~/.config/fish
-ln -sf ~/dotfiles/config.fish ~/.config/fish/
-
 mkdir -p ~/.config/mise
 ln -sf ~/dotfiles/mise_config.toml ~/.config/mise/config.toml
 
@@ -12,6 +9,9 @@ fi
 
 mkdir -p ~/.config/yt-dlp
 ln -sf ~/dotfiles/yt-dlp.config ~/.config/yt-dlp/config
+
+mkdir -p ~/.config/lazygit
+ln -sf ~/dotfiles/lazygit.yml ~/.config/lazygit/config.yml
 
 mkdir -p ~/.hammerspoon
 ln -sf ~/dotfiles/hammerspoon.lua ~/.hammerspoon/init.lua

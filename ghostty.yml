@@ -1,9 +1,12 @@
 theme = Snazzy Soft
-font-family = Monaspace Neon Var
+font-family = Moralerspace Neon
 font-feature = -calt, -liga, -dlig
 
 background-opacity = 0.9
 background-blur = true
+background-image = "~/Dropbox/illusts.library/images/LRFC5PUWX1U7A.info/2308_isekaijoucho_yoko.jpg"
+background-image-opacity = 0.1
+background-image-fit = cover
 
 macos-titlebar-proxy-icon = hidden
 macos-titlebar-style = tabs
@@ -11,9 +14,13 @@ macos-titlebar-style = tabs
 macos-icon = glass
 macos-icon-frame = beige
 
+macos-option-as-alt = left
+
 window-height = 50
 window-width = 190
 window-padding-x = 5
 window-inherit-working-directory = false
 
 keybind = shift+enter=text:\n
+
+shell-integration-features = sudo,title,ssh-env
