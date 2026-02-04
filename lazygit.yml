@@ -5,5 +5,9 @@ keybinding:
     quit: '<c-c>'
     quit-alt1: '' # alternative/alias of quit
     return: '<Esc>' # return to previous menu, will quit if there's nowhere to return
+os:
+  editPreset: 'vscode'
 git:
   overrideGpg: true
+  pagers:
+    - pager: delta --paging=never --line-numbers --side-by-side --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"

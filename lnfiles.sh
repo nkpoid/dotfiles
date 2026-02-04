@@ -13,6 +13,9 @@ ln -sf ~/dotfiles/yt-dlp.config ~/.config/yt-dlp/config
 mkdir -p ~/.config/lazygit
 ln -sf ~/dotfiles/lazygit.yml ~/.config/lazygit/config.yml
 
+mkdir -p ~/.config/helix
+ln -sf ~/dotfiles/helix.toml ~/.config/helix/config.toml
+
 mkdir -p ~/.hammerspoon
 ln -sf ~/dotfiles/hammerspoon.lua ~/.hammerspoon/init.lua
 

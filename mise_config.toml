@@ -4,7 +4,6 @@ go = "latest"
 
 node = "latest"
 "npm:pnpm" = "latest"
-"npm:@anthropic-ai/claude-code" = "latest"
 
 python = "latest"
 "pipx:ruff" = "latest"
