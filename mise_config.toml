@@ -10,6 +10,8 @@ python = "latest"
 "pipx:ty" = "latest"
 "pipx:yt-dlp" = "latest"
 
+aws-cli = "latest"
+gcloud = "latest"
 e1s = "latest"
 
 [settings]
