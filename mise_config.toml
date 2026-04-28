@@ -1,15 +1,23 @@
 [tools]
+# Basic Languages
 ruby = "latest"
 go = "latest"
 
-node = "latest"
+# node
+node = "24"
+aube = "latest"
+deno = "latest"
 "npm:pnpm" = "latest"
+"npm:agent-browser" = "latest"
 
+# python
 python = "latest"
 "pipx:ruff" = "latest"
 "pipx:ty" = "latest"
-"pipx:yt-dlp" = "latest"
+"pipx:yt-dlp" = { version = "latest", extras = "default" }
 
+# Other cli
+gh = "latest"
 aws-cli = "latest"
 gcloud = "latest"
 e1s = "latest"

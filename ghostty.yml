@@ -2,7 +2,7 @@ theme = Snazzy Soft
 font-family = Moralerspace Neon
 font-feature = -calt, -liga, -dlig
 
-background-opacity = 0.9
+background-opacity = 0.8
 background-blur = true
 background-image = "~/Dropbox/illusts.library/images/LRFC5PUWX1U7A.info/2308_isekaijoucho_yoko.jpg"
 background-image-opacity = 0.1
@@ -24,3 +24,5 @@ window-inherit-working-directory = false
 keybind = shift+enter=text:\n
 
 shell-integration-features = sudo,title,ssh-env
+bell-features = system, attention, title, border
+window-save-state = always

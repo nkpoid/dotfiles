@@ -4,6 +4,7 @@ local double_press = require("ctrlDoublePress")
 
 local open_terminal = function()
   local appName = "com.mitchellh.ghostty"
+  -- local appName = "com.cmuxterm.app"
   local app = application.get(appName)
 
   if app == nil then
