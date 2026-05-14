@@ -9,6 +9,8 @@ aube = "latest"
 deno = "latest"
 "npm:pnpm" = "latest"
 "npm:agent-browser" = "latest"
+"npm:portless" = "latest"
+"npm:@openai/codex" = "latest"
 
 # python
 python = "latest"
@@ -20,7 +22,8 @@ python = "latest"
 gh = "latest"
 aws-cli = "latest"
 gcloud = "latest"
-e1s = "latest"
+jq = "latest"
+fzf = "latest"
 
 [settings]
 experimental = true
