@@ -11,6 +11,8 @@ deno = "latest"
 "npm:agent-browser" = "latest"
 "npm:portless" = "latest"
 "npm:@openai/codex" = "latest"
+"npm:@sentry/cli" = "latest"
+"npm:@mermaid-js/mermaid-cli" = "latest"
 
 # python
 python = "latest"

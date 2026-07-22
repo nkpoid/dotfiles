@@ -1,15 +1,15 @@
 gui:
   nerdFontsVersion: "3"
-  language: "en"
+  language: en
   spinner:
     rate: 5000
 keybinding:
   universal:
-    quit: "<c-c>"
+    quit: <ctrl-c>
     quit-alt1: "" # alternative/alias of quit
-    return: "<Esc>" # return to previous menu, will quit if there's nowhere to return
+    return: <esc> # return to previous menu, will quit if there's nowhere to return
 os:
-  editPreset: "zed"
+  editPreset: zed
 git:
   overrideGpg: true
   autoFetch: false
